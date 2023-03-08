@@ -1,0 +1,1 @@
+the analysis manager creats histogram at RunAction, and Fill histogram at EventAction.

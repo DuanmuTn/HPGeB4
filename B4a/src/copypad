@@ -1,0 +1,38 @@
+
+  G4int Erand=G4UniformRand();
+  if(Erand%1000/1000<0.286 && Erand>=0 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.362 && Erand>=0.286 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.627 && Erand>=0.362 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.649 && Erand>=0.627 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.677 && Erand>0.649 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.806 && Erand>0.677 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.8489 && Erand>=0.806 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<0.9949 && Erand>0.8489 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<1.097 && Erand>0.9949 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<1.114 && Erand>1.097 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<1.25 && Erand>1.114 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
+  if(Erand%1000/1000<1.46 && Erand>1.097 ){
+  fParticleGun->SetParticleEnergy(0.12178*MeV);
+  }
